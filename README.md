@@ -1,3 +1,2 @@
-# JS-task-31
-JS-task-31
+Deploy Link : 
 https://cryptotask-one.vercel.app/
