@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(to left, #c471f5, #fa71cd);
+}
+
+#search {
+  margin: 40px auto;
+  display: flex;
+  font-size: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 0 5px;
+  border: none;
+}
+
+#binance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#binance .crypto {
+  width: 650px;
+}
+#binance .crypto img {
+  display: none;
+  width: 100%;
+  background-color: black;
+}
+#binance .crypto table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+#binance .crypto table thead {
+  background-color: rgb(72, 72, 72);
+  color: #fff;
+}
+#binance .crypto table thead #nameColumn, #binance .crypto table thead #tickColumn {
+  cursor: pointer;
+}
+#binance .crypto table tr th,
+#binance .crypto table tr td {
+  padding-block: 10px;
+  padding-inline: 15px;
+}
+#binance .crypto table tr td {
+  color: rgb(77, 77, 77);
+}
+#binance .crypto table tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}/*# sourceMappingURL=index.css.map */

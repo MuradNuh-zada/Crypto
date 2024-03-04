@@ -1,0 +1,54 @@
+@import "imports";
+
+#search {
+    margin: 40px auto;
+    display: flex;
+    font-size: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 0 5px;
+    border: none;
+}
+#binance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .crypto {
+        width: 650px;
+        img {
+            display: none;
+            width: 100%;
+            background-color: black;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            thead {
+                background-color: rgb(72, 72, 72);
+                color: #fff;
+                #nameColumn, #tickColumn {
+                    cursor: pointer;
+                }
+            }
+            tr {
+                th,
+                td {
+                    padding-block: 10px;
+                    padding-inline: 15px;
+                }
+                td {
+                    color: rgb(77, 77, 77);
+                }
+            }
+            tbody {
+                tr:nth-child(even) {
+                    background-color: #dddddd;
+                }
+            }
+        }
+    }
+}
